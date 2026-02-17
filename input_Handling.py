@@ -12,6 +12,7 @@ if len(sys.argv) != 3:
     sys.exit()
 
 full_name = sys.argv[1:]
+
 last_name = sys.argv[2]
 #Format name
 
