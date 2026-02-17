@@ -12,12 +12,10 @@ if len(sys.argv) != 3:
     sys.exit()
 
 full_name = sys.argv[1:]
-
 last_name = sys.argv[2]
 #Format name
 
 email = full_name.lower().replace(" ", ".") + last_name.lower().replace(" ", ".") + "@valeo.com"
-
 print("\n----Your Profile----")
 print("Full name: " + full_name + last_name)
 print("Email: " + email)
