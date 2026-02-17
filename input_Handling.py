@@ -7,6 +7,7 @@ import sys
 
 '''
 if len(sys.argv) != 3:
+
     print("Usage: python input_Handling.py 'full_name and last_name'")
     sys.exit()
 
